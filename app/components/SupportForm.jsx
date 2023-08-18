@@ -8,7 +8,7 @@ import emailjs from "@emailjs/browser";
 
 
 const SupportForm = () => {
-  const {handleSubmit, register, formState:{isValid, errors}} = useForm({
+  const {handleSubmit, register,reset, formState:{isValid, errors}} = useForm({
     mode: 'onChange'
   })
   const emailValidator=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
@@ -35,13 +35,14 @@ const SupportForm = () => {
       )
       .then(
         () => {
+          reset()
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
         },
         (error) => {
+          reset()
           setLoading(false);
           console.error(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       );
@@ -69,7 +70,7 @@ const SupportForm = () => {
         </div>
         {errors?.query?.type==='required'&& <span className="text-red-500">Query is required</span>}
         <div className=" flex justify-center w-full">
-       <button className="bg-slate-800 mt-6 rounded-2xl w-[25%] p-3 cursor-pointer hover:bg-slate-200 hover:text-black ease-in-out text-xl" disabled={!isValid} type="submit">{loading? "Sending..": "Send"}</button>
+       <button  className="bg-slate-800 mt-6 rounded-2xl w-[25%] p-3 cursor-pointer hover:bg-slate-200 hover:text-black ease-in-out text-xl" disabled={!isValid} type="submit">{loading? "Sending..": "Send"}</button>
         </div>
 
     </form>
