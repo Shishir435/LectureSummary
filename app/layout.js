@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Lecture Summary:Udemy and Coursera',
-  description: 'Lecture Summary: Udemy and Coursera a google chrome extension helping users to grt summary of Udemy and Corsera video lecture summary',
+  description: 'Helping you easily get summaries from #youTube, #udemy & #coursera video courses. ',
 }
 
 export default function RootLayout({ children }) {

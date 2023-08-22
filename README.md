@@ -1,6 +1,6 @@
-# Lecture Summary: Your Ultimate Learning Companion for Udemy and Coursera
+# Lecture Summary: Your Ultimate Learning Companion for YouTube, Udemy and Coursera
 
-Introducing [Lecture Summary](https://chrome.google.com/webstore/detail/speedysynopsis/mnejhfjohfbgdoadgjmfigodfagokeme?gclid=Cj0KCQjwrfymBhCTARIsADXTabkhCVR6HhP-QqZ9VUOx6Q8VGSQeF6AnPrSByTXhznQOkJHtQwXT5oEaAjujEALw_wcB)  – the must-have Chrome extension designed exclusively for Udemy and Coursera users, bringing enhanced learning experiences to your online courses.
+Introducing [Lecture Summary](https://chrome.google.com/webstore/detail/speedysynopsis/mnejhfjohfbgdoadgjmfigodfagokeme?gclid=Cj0KCQjwrfymBhCTARIsADXTabkhCVR6HhP-QqZ9VUOx6Q8VGSQeF6AnPrSByTXhznQOkJHtQwXT5oEaAjujEALw_wcB)  – the must-have Chrome extension designed exclusively for YouTube, Udemy and Coursera users, bringing enhanced learning experiences to your online courses.
 
 ## Unlock the Power of Summarized Learning
 
@@ -29,7 +29,7 @@ Your data privacy is paramount. Lecture Summary ensures security. Set up your ac
 - Create a personalized learning experience with downloadable summaries.
 - Secure setup with a one-time API key submission.
 
-Experience a new era of efficient learning with Lecture Summary. Elevate your Udemy and Coursera journey today. Maximize your time, and amplify your knowledge.
+Experience a new era of efficient learning with Lecture Summary. Elevate your YouTube, Udemy and Coursera journey today. Maximize your time, and amplify your knowledge.
 
 **Download now and revolutionize the way you learn!**
 
